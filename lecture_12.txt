@@ -1,0 +1,293 @@
+Music
+Hello students, welcome to great smashers
+Today I am going to explain in this video
+How to check whether the grammar is LL1 grammar or not
+You can also say this
+Whether the given grammar is accepted by LL1 parser or not
+So look, this type of question is very popular
+Especially in competitive exams
+And if we ask about this type of question in college university exam
+So look, in this video I am telling you a shortcut method
+To check whether the grammar is LL1 or not
+But the proper method of this is by creating the parsing table
+And if you make a parsing table and check it
+Then it is a little bit lengthy there
+Means it is time consuming to do all the steps in the sense that
+So in competitive exams we have time shortage
+So I want a short trick somewhere
+So here I am telling you
+Actually a short trick to find whether the grammar is LL1 or not
+So look what the short trick says
+If we talk here
+If you give any grammar
+In that grammar let's say alpha1, alpha2, alpha3
+You have given multiple productions
+What you have to do is
+Every production
+If there is no null production in production
+Means there is no null production
+And you can say there is no epsilon production
+Then you have to do what?
+You have to find the first of alpha1
+You have to find the first of alpha2
+You have to find the first of alpha3
+Getting the point
+Means whatever production you have given
+What you have to do in every production
+First find out alpha1, alpha2, alpha3
+You already know first
+If you don't know then the link is given in the description box
+First check it because if you don't have to calculate the first follow
+Then you can't do this
+So that's why first calculate
+After first calculating
+What I have to do is
+Intersection
+After intersection
+Which is my result
+If it is equal to 5
+Means if I have to check pairwise disjoint
+Between alpha1, alpha2
+Whether they are disjoint or not
+Means nothing should be common
+So check between these two
+Nothing is common
+Check between these two
+Nothing is common
+Check between these three
+Nothing is common
+So I checked all pairwise
+And my result is
+Intersection result is 5
+So you can say it is a LL1 grammar
+And if my result is not equal to 5
+Means it is not a LL1
+Simple is the point
+Getting the point
+So here no null
+Always remember that no null production should be done
+Then we use this funda
+Now comes that if sir has null production
+Means if you are given this way
+Any production is given
+Alpha1, Alpha2
+And let's say you are given null production
+Now what you have to do in this case
+What you have to do in this case
+Alpha1 is same way
+Find out first
+Alpha2 is same way
+Find out first
+But Alpha3 means
+Your third production is
+Null production
+What is there in that?
+Null production
+So if there is null production
+Then there is something else with null
+Or there can be single null
+Or there can be something else with null
+Then also we have to do
+If there is something else
+Then null can be put in it
+If I put alpha3 with this
+Then null is useless
+So you can say simple
+What will happen in this?
+Single null production
+So what you have to do in that case
+If null is there
+Then what you have to do on left hand side
+Follow
+Means whose follow should be taken
+S follow should be taken
+Whatever null production is
+The variable in left
+Follow it
+Now same way
+You have to do intersection
+Like I did intersection first
+Now you have to do intersection
+After intersection
+The same disjoint
+Here first I checked these two
+Then I checked these two
+Then I checked these two
+If overall my answer is equal to 5
+Means nothing is common in this
+Means it is a LL1
+And if not equal to 5
+Means it is not a LL1
+Getting the point?
+Not LL1
+If not equal to 5
+Means if nothing is common
+Not equal to LL1
+So remember these two points
+Now we will do one question
+This question is already
+In competitive exam
+So I have written the same question here
+So first we have this grammar
+In this grammar
+What is this in my way
+Alpha1, this is alpha2, this is alpha3
+Now see is there null production somewhere
+No
+If there is no null production
+Means find out the first of alpha1
+So find out the first of this
+So when you find out the first of this
+Of this whole
+So first means
+Whatever is coming in first
+That will be the first of that particular thing
+So here which symbol is first
+Small a means terminal
+So what is this?
+Small a is first
+Now see this one
+Find out this one
+B and S
+Now see who is first in this
+B
+So simple is your terminal
+So write the terminal directly
+You will calculate this one
+What is this first?
+C
+Small c means terminal
+So what should I write in these three
+Write the intersection
+Write the intersection in these three
+So see what is the intersection
+The intersection is
+Check it
+By the way you don't have to check it
+You can see clearly
+The intersection of these is equal to 5
+Means nothing is common
+And if it is equal to 5
+Means it is a ll1
+That's it
+The question is your within a minute
+Okay
+I have given you time in explanation
+Otherwise if you will do normal on this question
+Then you will hardly get 20 to 30 seconds
+Hardly you will get
+Just you have to check first for now
+And your question will be solved
+Otherwise it takes a lot of time
+from the passing table method
+Next see if we talk about this question
+What to do in this question?
+First check this production
+Means here this is given
+So if I take out first of this
+Then see what is the first of this overall?
+I
+Now what is the first of the next one?
+Okay, what is the first of this?
+And what is the first of this whole?
+I
+So take the intersection between them
+What is the intersection?
+Equal to 5
+Means this is okay
+You cannot say this now
+Because in this only one
+In the whole
+There was only one production in the grammar
+There are three productions in this
+So you have to check all three
+So first it is okay
+Now let's talk about the second one
+So see in the second one
+This is my alpha 1 and this is alpha 2
+So take out first of alpha 1
+Take out first of alpha 1
+Means take out first of E and S
+So small e terminal
+That's it
+Now the intersection
+Now there is a twist here
+What is the twist?
+There is a null production
+In the case of null production
+What I said?
+Follow of S1
+What is the next one?
+Follow of S1
+So we have to write follow of S1
+So first take out follow of S1
+Only then you will write there
+So take out follow of S1
+So see where is follow of S1?
+Where is S1?
+Look at the right side
+Where is S1?
+Here
+So see after S1 nothing is there
+Nothing after S1
+So whenever nothing is there after S1
+Or null
+So what we do?
+Follow of S only
+So what will be follow of S1?
+Follow of S will be
+Oh this is another problem
+Now I had to take out follow of S1
+Now I have to take out follow of S
+So how will you take out follow of S?
+So here follow of S
+So see where S is written?
+Here is S
+See this one
+Now look at SK
+Next one
+What will be the follow of S?
+Follow of S will be first of S1
+Follow of S will be first of S1
+Guys that is why I am finding this one quickly
+Because I am following you
+First follow already comes
+If it does not come then please check first
+Otherwise you will not get any benefit of this video
+What is follow of S?
+S1
+So how will you take out follow of S?
+It will be first of S1
+So first of S1
+First of S1 what will be my E?
+First of S1 what will be my E?
+Okay right?
+If you take this one then what will be first of S1?
+E and what is second?
+Epsilon
+So we put epsilon here
+If you put epsilon
+Then what will be?
+Obviously here it will be epsilon
+So you can say that
+One is my E and second is dollar
+Dollar which is start symbol
+Follow of S
+Start symbol
+So start symbol by default is dollar
+Dollar is by default, start symbol is follow
+But what is one more value here?
+I have symbol E
+So E and dollar are followed
+So I have to take these two intersections here
+Because I have found out first and followed it according to this
+So when I did this then it is not equal to 5
+So stop here
+You don't have to check ahead
+Although you will check there is no benefit
+Because wherever you got it
+Not equal to 5 means it is not a LL1
+That's it
+So this is how you have to solve the questions
+Related to LL1 grammar
+Thank you

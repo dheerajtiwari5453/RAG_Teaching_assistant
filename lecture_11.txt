@@ -1,0 +1,294 @@
+Music
+Hello students, welcome to great smashers
+In today's video I am going to explain how to find first and follow of a given grammar
+Means grammar is given to you
+I have to find out first and follow out of that grammar
+So in this video we will talk first about how to find first
+And why is it important to find out first and follow
+Because whether you talk about top down parser or bottom up parser
+Top down is very very important and if we talk about bottom up parser
+Then there is LAR, LALR, SLRC, LR
+Somewhere or the other you need to find out first
+You have to find out follow, it is very important
+Means you can say that in compiler one of the most important topic is
+How to find first and follow
+So I am going to tell you from a very simple point
+Students are very confused in this topic but nothing is there
+It is a logical question
+Like in your reasoning there are questions about blood relation
+That what your mother, brother, daughter, mother think of you
+Means this question seems like a logical reasoning for blood relation
+So let me tell you as an example
+Like first of A contains all terminals present in the first place of every derived by A
+Means if I have to find out any variable
+Then you have to find out the first terminal
+Means you have to find out the first terminal
+Means the terminal itself is there
+And if you write epsilon
+Guys I have written epsilon many times
+It seems like E so that is why I have denoted it
+What will be the first epsilon of epsilon
+You have to remember these two points
+So what is the third thing? Variable
+So we find out the variable
+Always you have to focus on the left hand side of the grammar
+So focus on the left hand side
+So the first S given to me in the left hand side
+So if I have to find out the first of S
+Then look at S what is deriving
+What we are saying here
+Whatever these strings derived by A
+Means whatever my variable is
+What is deriving
+So A, B, C is deriving
+And what is deriving here
+D, E, F is deriving
+And what is deriving here
+So you can say these three strings are deriving
+So find out the first of these three strings
+So first if you find out the first of A, B, C
+So guys it seems small
+Small IBC means what is this? Terminal
+So this terminal means
+This A, B, C first to be found
+Means A will come
+If we talk about D, E, F
+So what is D, E, F here
+So first find out this D, E, F
+Means D will come
+So you have to find out the first of G, H
+So which is the first symbol in this
+G
+So you can find out this way
+So this is the first of S
+From this A was formed
+Getting the point
+From this A was formed
+From this D was formed
+So this is how you have to find the first
+It is very simple
+Let's discuss some other examples
+For example, A, B, C is denoted as variable
+And small we denote as terminal
+By default we use this
+Nominculation
+G, H, I, J, K, L, all are given
+Now start with smaller thing
+Means what you can see easily
+What you can see directly
+For example if I want to write D first
+Then you know what D is deriving
+D
+In left hand side all the variables
+Now you know this is context free grammar
+So context free grammar
+What will be on left hand side
+A single variable
+So look at the corresponding of each left hand side
+What is D deriving
+Means terminal
+So what is first of D
+Terminal is D
+What will be the first of B
+Whatever B is deriving
+Small B
+And what is small B
+Terminal means small B
+What will be its first
+Look at A
+Small A, small B and small C
+Different
+A, B and C
+So first of A is deriving
+First of A
+B is deriving
+First of B
+C is deriving
+First of C
+Because it is small
+Now we come to capital
+Now we come to S
+So S is deriving
+Here capital ABC is deriving
+Now see the important point
+Capital ABC
+How will you say first of S
+First of S is first of A
+Means you can denote it like this
+See I am showing here
+First of S will be first of ABC
+First of F will be first of ABC
+And first of ABC is
+Means which is your first
+Capital A
+So it has transitive property
+So you have to put transitive property
+What is first of S
+First of ABC
+And what is first of ABC
+So first of S will be first of A
+So first of A
+See what is first of A
+So capital S will be first of ABC
+Getting the point
+First of A is first of
+This is first of S
+First of capital A
+And capital A is first of ABC
+So what is S of ABC
+Second, you have three options
+So first option is done
+Second option is all terminal
+So which is your first one
+Small g
+So write it straight
+Then see this J
+Small j means terminal
+So this is your ABC
+First of capital S
+So this is how you have to solve it
+If we talk like this
+See this
+This question is very important
+This type of question is mostly in competitive exams
+Capital ABC
+You can see clear cut
+This is all epsilon
+First you write the clear cut
+So see you can see clear cut of C
+One is E, one is F
+And one is epsilon
+See simple
+So first of E
+F derives first of F
+Epsilon derives first of epsilon
+Epsilon
+Now write C, D and epsilon
+C, D and epsilon
+Write A, B, epsilon
+Write A, B, epsilon
+You can see it directly
+But the important point
+You have to learn
+That is how to find the first of S
+Now see this carefully
+First of S will be
+First of ABC
+This is your variable
+First of A
+First of A you have to find out
+So guys see carefully
+First of S is equal to first of A
+And what is first of A? A, B, epsilon
+So guys write A, B directly
+Means first of A
+You know A is B, epsilon
+So obviously if you put A here
+Then A will come, B will come
+So A, B will come
+But when you put epsilon
+Then A is epsilon
+So don't write epsilon here
+In S you don't write epsilon in the beginning
+You have to put epsilon
+Put epsilon here
+So if you put epsilon
+Then what will be now?
+B, C is left
+Because this is epsilon and this is phi
+So what do you mean?
+First of S was first of A
+And first of S is first of B
+So put value of B
+Means C is formed
+Now epsilon
+Then put epsilon here
+It is a very important point and last point
+There is nothing else
+What is left? Capital C
+What is this? Capital C
+So capital C again E, F, epsilon
+So one E came
+One F came
+When you put epsilon
+Then what will be left?
+So this is A, B, C, D, E, F, epsilon
+What is this?
+First of S
+Second point
+If this epsilon is not here
+Then you simply do A, B
+Then you don't have to solve
+If this epsilon is not here
+Then you put A, B, epsilon
+Then A, B, C, D is formed
+Then it doesn't come
+So as far as epsilon is
+You keep putting it and you keep taking it out
+This is a very important point
+Look at this last one
+Let's say grammar is given
+First of all you see the clear cut
+First of E is first of T
+So first of T is first of F
+So first of T is first of F
+So first of all you do this
+First of all you take out F
+Because most of the things are dependent on it
+So first of F if you take out
+What will be?
+1. ID
+2. Open braces
+E
+What is this? Terminal
+So look here ID and 1 open braces
+So first of ID
+First of open braces
+That is the point
+Now look T dash
+If we talk about T dash one epsilon and one plus
+You can see the clear cut here
+Plus, plus you can write directly here
+That's it
+Look at T
+What will be the first of T?
+So first of F we have taken out
+That is ID and open parenthesis
+So here it is
+Put it
+E dash first
+Look at first, what is terminal?
+So write star directly
+Second E dash first
+What is epsilon here?
+So write epsilon here directly
+That's it, all are here
+E is last
+What is the first of E?
+So first of T is first of T
+So first of T is ID and
+Open parenthesis
+So ID and open parenthesis
+That's it
+Now listen to the last point
+First of E is first of T
+Now in T let's say ID and open parenthesis
+Let's say for example
+Just for example
+Let me tell you note this first
+This is all but if let's say
+Epsilon is here, just for example
+What do you do?
+Put epsilon here
+Then we take out E dash first
+So what is E dash first?
+Then you put epsilon
+Then it becomes epsilon
+If epsilon comes
+Then you take out first of next
+So this is how you have to find the first
+Means all cases are covered
+Nothing is there outside
+So this is all about
+How to find the first
+Thank you
